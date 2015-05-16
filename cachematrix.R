@@ -21,6 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve returns a matrix that is the inverse of 'x'
+## 'x' being an object cretated through makeCaheMatrix
 
 cacheSolve <- function(x, ...) {
         
